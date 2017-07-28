@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>hello, world!</title>
+    <link href="css/app.css" rel="stylesheet" type="text/css">
+
+    <!-- <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script> -->
+    <script>
+            require('./scripts/main');
+        </script>
+<!-- <script>if (window.module) module = window.module;</script> -->
+
+<script src="scripts/external_links.js"></script>
+</head>
+
+<body>
+
+    <div style="display:flex;flex-direction: column;align-items: center;">
+        <br/>
+        <!-- react component: <h2 class="light" id="clock-target"></h2> -->
+        <p><b>react component:</b> <span id="clock-target"></span></p>
+        <p><b>appname:</b> <span id="appname"></span></p>
+        <p><b>platform:</b> <span id="platform-info"></span></p>
+        <p><span class="btn btn-sm btn-outline-default">Cancel</span> <span class="btn btn-sm btn-purple">Okay</span></p>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+.DS_Store
+*.map
+
+/app/*.map
+/app/app.js
+/app/background.js
+/app/bootstrap.js
+
+/dist
+
+
+/node_modules
+!/node_modules/react-desktop/src/textInput/**/*
+!/node_modules/react-desktop/src/titleBar/**/*

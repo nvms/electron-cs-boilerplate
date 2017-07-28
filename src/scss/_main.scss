@@ -1,0 +1,62 @@
+body,
+html {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #5D368B;
+}
+
+div {
+    display:inline-block;
+}
+
+#container {
+    position: absolute;
+    /* #titlebar zindex is 1000. We don't need to specify the z-index of our
+    main content box, but explicit is always better than implicit. */
+    z-index: 50;
+    top: 36px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // flex-direction: column;
+    overflow: scroll;
+    #main {
+        flex: 1;
+        background-color: #F1F1F1;
+        position: relative;
+        z-index: 10;
+        display: flex;
+        .quickstart,
+        .recent {
+            flex: 1;
+            padding: 30px;
+        }
+        .quickstart {
+            // flex: 1;
+        }
+        .recent {
+            // flex:1;
+        }
+    }
+    #side {
+        width: 370px;
+        position: relative;
+        z-index: 15;
+        background-color: white;
+        box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
+        padding: 30px;
+    }
+}
