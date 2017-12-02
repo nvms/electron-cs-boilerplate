@@ -67,3 +67,8 @@ module.exports = (src, dest, opts) ->
       jetpack.writeAsync(dest, isolatedCode + '\n//# sourceMappingURL=' + jsFile + '.map')
       jetpack.writeAsync(dest + '.map', result.map.toString())
     ]
+
+
+
+
+

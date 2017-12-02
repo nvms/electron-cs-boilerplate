@@ -1,5 +1,7 @@
 # ∴ electron-coffee-boilerplate
 
+- Clone the repository
+- `npm install`
 - `coffee -c --bare .` to compile .coffee to .js (`--bare` to prevent wrapping in function... exports need to be at top level)
 - `npm start` to build and run the electron app
 
