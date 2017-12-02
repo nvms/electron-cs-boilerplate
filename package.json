@@ -1,12 +1,13 @@
 {
-  "name": "electron-boilerplate",
+  "_comment": "application data saved to ~/Library/Application Support/<name> (defined below)",
+  "name": "electron-cs-boilerplate",
   "version": "1.0.0",
   "description": "An electron boilerplate",
   "author": "nvms",
   "license": "MIT",
   "main": "app/bootstrap.js",
   "build": {
-    "appId": "com.nvms.electron-boilerplate",
+    "appId": "com.nvms.electron-cs-boilerplate",
     "files": [
       "app/**/*",
       "node_modules/**/*",
@@ -21,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nvms/electron-boilerplate.git"
+    "url": "https://github.com/nvms/electron-cs-boilerplate.git"
   },
   "dependencies": {
     "babel-preset-es2015": "^6.18.0",
