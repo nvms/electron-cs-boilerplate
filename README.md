@@ -7,4 +7,4 @@
 
 ## gulp tasks
 - `clean` removes all .js and empties the `app` directory
-- `build` assumes that coffeescript has been compiled to vanilla JS; it compiles sass to css, es6 to vanilla js, and moves all compiled files from src to app
+- `build` assumes that coffeescript has been compiled to js; it then compiles sass to css, es6 to vanilla js, and moves all compiled files from src to app
